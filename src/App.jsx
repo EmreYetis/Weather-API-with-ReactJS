@@ -26,7 +26,7 @@ function App() {
   return (
     <div className="App">
       <div className="weather">
-        <h1>Give your City</h1>
+        <h1>Which city do you live in?</h1>
         <input
           onChange={(e) => {
             setSearch(e.target.value);

@@ -1,4 +1,5 @@
 import React from "react";
+import "./App.css";
 
 function City({ city }) {
   const icon = city.weather[0].icon;
@@ -9,7 +10,7 @@ function City({ city }) {
       <div>
         <h1>{city.main.temp} °C</h1>
         <h1>{city.name}</h1>
-        <h1>{city.weather[0].main} </h1>
+        <h1 className="pad">{city.weather[0].main} </h1>
         <img src={link} alt="" />
       </div>
     </div>

@@ -16,7 +16,6 @@ input {
   width: 250px;
   background-color: rgb(215, 228, 231);
 }
-/* img {
-  height: 5rem;
-  width: auto;
-} */
+.pad {
+  margin-top: 5px;
+}
