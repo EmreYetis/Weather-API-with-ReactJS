@@ -1,21 +1,45 @@
+/* Genel uygulama stilini belirle */
+body {
+  background-color: #fff;
+  color: #3410d6;
+}
 .App {
   text-align: center;
-  width: 500px;
+  width: 80%; /* Genişliği yüzde olarak ayarla */
+  max-width: 500px; /* Maksimum genişliği belirle */
   margin: 2rem auto;
   padding: 2rem;
 }
+
+/* Hava durumu bileşeninin stilini belirle */
 .weather {
   background-image: url(https://images.pexels.com/photos/1118873/pexels-photo-1118873.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500);
   background-repeat: no-repeat;
-  background-size: 100%;
+  background-size: cover; /* Resmi kapsamasını sağla */
   background-color: rgb(138, 198, 216);
+  border-radius: 10px; /* Kenar yuvarlatma ekle */
+  overflow: hidden; /* Taşan içerikleri gizle */
 }
+
+/* Giriş alanının stilini belirle */
 input {
   border: 2px solid rgb(215, 228, 231);
-  height: 25px;
-  width: 250px;
+  height: 35px;
+  width: 100%; /* Genişliği yüzde olarak ayarla */
+  box-sizing: border-box; /* Kutu modelini düzgünce ayarla */
+  margin-bottom: 10px; /* Alt boşluğu belirle */
+  padding: 10px; /* Dolgu ekle */
   background-color: rgb(215, 228, 231);
+  border-radius: 5px; /* Kenar yuvarlatma ekle */
+  text-align: center;
+  font-size: large;
+  font-weight: bold;
+  color: #3410d6;
 }
+
+/* Pad sınıfının stilini belirle */
 .pad {
-  margin-top: 5px;
+  padding: 10px; /* Dolgu ekle */
+  border-radius: 5px; /* Kenar yuvarlatma ekle */
+  margin-bottom: 10px; /* Alt boşluğu belirle */
 }
